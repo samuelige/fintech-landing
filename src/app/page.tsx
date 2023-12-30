@@ -1,5 +1,6 @@
 import HeroLayout from '@/_shared/components/HeroLayout'
 import Announcement from '@/container/Announcement'
+import Banner from '@/container/Banner'
 import NavBar from '@/container/NavBar'
 
 export default function Home() {
@@ -7,8 +8,9 @@ export default function Home() {
     <main className='w-full flex flex-col'>
       <Announcement/>
       <HeroLayout>
-        <div className='w-full flex flex-col pt-[1.13rem] xl-1:max-w-[90rem] xl-1:m-auto'>
+        <div className='w-full flex flex-col pt-[1.13rem] xl-1:max-w-[77.59806rem] xl-1:m-auto'>
           <NavBar/>
+          <Banner/>
         </div>
       </HeroLayout>
     </main>
