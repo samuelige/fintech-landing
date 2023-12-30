@@ -6,7 +6,7 @@ import ProductAction from './ProductAction'
 
 const Products = () => {
   return (
-    <div className='mt-[-1.5rem] bg-white'>
+    <div id="products" className='mt-[-1.5rem] bg-white'>
         <div className='w-full flex flex-col pt-[5.44rem] pb-[9.44rem] xl-1:max-w-[77.59806rem] xl-1:m-auto'>
             <TitleWithSubTitle
                 title={`Let’s explore our range of products`}
