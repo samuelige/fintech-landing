@@ -2,6 +2,7 @@ import HeroLayout from '@/_shared/components/HeroLayout'
 import Announcement from '@/container/Announcement'
 import Banner from '@/container/Banner'
 import NavBar from '@/container/NavBar'
+import Products from '@/container/Products'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
           <Banner/>
         </div>
       </HeroLayout>
+      <Products/>
     </main>
   )
 }
