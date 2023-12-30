@@ -1,6 +1,7 @@
 import HeroLayout from '@/_shared/components/HeroLayout'
 import Announcement from '@/container/Announcement'
 import Banner from '@/container/Banner'
+import Download from '@/container/Download'
 import NavBar from '@/container/NavBar'
 import Overview from '@/container/Overview'
 import Partners from '@/container/Partners'
@@ -21,6 +22,7 @@ export default function Home() {
       <Services/>
       <Overview/>
       <Partners/>
+      <Download/>
     </main>
   )
 }
