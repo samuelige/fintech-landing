@@ -15,7 +15,7 @@ const Footer = () => {
         navs: ["Terms and Conditions", "Privacy Policy", "Community", "Contact us"],
     };
   return (
-    <div id="contact" className='w-full bg-white'>
+    <div id="contact" className='w-full bg-white lg:px-8 xl-1:px-0'>
         <div className='w-full flex flex-col items-start justify-between xl-1:max-w-[77.59806rem] xl-1:m-auto border-t-[1px] border-t-gray-700 pt-10 pb-[3.75rem] '>
             <div className='w-full  xl-1:max-w-[64.94119rem] xl-1:m-auto space-x-[5.06rem] flex flex-row'>
                 <section className='w-[23.5rem]'>
@@ -26,14 +26,14 @@ const Footer = () => {
                     </div>
                     <FooterField/>
                 </section>
-                <section className='flex-1 flex flex-row items-center justify-between'>
+                <section className='flex-1 flex flex-row justify-between'>
                     <FooterList
                         data={companyList}
                     />
                     <FooterList
                         data={supportList}
                     />
-                    <div>
+                    <div className='flex flex-col justify-center'>
                         <SocialMediaList/>
                     </div>
                 </section>

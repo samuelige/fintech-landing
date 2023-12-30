@@ -14,7 +14,7 @@ export default function Home() {
     <main className='w-full flex flex-col'>
       <Announcement/>
       <HeroLayout>
-        <div className='w-full flex flex-col pt-[1.13rem] xl-1:max-w-[77.59806rem] xl-1:m-auto'>
+        <div className='w-full flex flex-col pt-[1.13rem] lg:px-8 xl-1:px-0 xl-1:max-w-[77.59806rem] xl-1:m-auto'>
           <NavBar/>
           <Banner/>
         </div>
