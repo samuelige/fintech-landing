@@ -16,6 +16,7 @@ module.exports = {
         success: {
           25: "#2c676324",
           100: "#2C6763",
+          200: "#0F2028",
         },
         white: "#FFFFFF",
         black: {
@@ -37,6 +38,7 @@ module.exports = {
     success: {
         25: "#2c676324",
         100: "#2C6763",
+        200: "#0F2028",
     },
     white: "#FFFFFF",
     black: {
@@ -58,6 +60,7 @@ module.exports = {
     success: {
         25: "#2c676324",
         100: "#2C6763",
+        200: "#0F2028",
     },
     white: "#FFFFFF",
     black: {

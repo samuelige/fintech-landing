@@ -2,6 +2,7 @@ import HeroLayout from '@/_shared/components/HeroLayout'
 import Announcement from '@/container/Announcement'
 import Banner from '@/container/Banner'
 import NavBar from '@/container/NavBar'
+import Overview from '@/container/Overview'
 import Products from '@/container/Products'
 import Services from '@/container/Services'
 
@@ -17,6 +18,7 @@ export default function Home() {
       </HeroLayout>
       <Products/>
       <Services/>
+      <Overview/>
     </main>
   )
 }
