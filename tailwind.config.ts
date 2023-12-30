@@ -1,6 +1,6 @@
 import type { Config } from 'tailwindcss'
 const theme = require("./theme");
-const {fontFamily, colors, backgroundColor, backgroundImage} = theme;
+const {fontFamily, colors, backgroundColor, backgroundImage, borderColor} = theme;
 
 const config: Config = {
   important: true,
@@ -15,6 +15,7 @@ const config: Config = {
     extend: {
       fontFamily,
       colors,
+      borderColor,
       backgroundColor,
       backgroundImage,
       screens: {
