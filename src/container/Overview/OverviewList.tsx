@@ -32,7 +32,7 @@ const OverviewList = () => {
         },
     ]
   return (
-    <div className='grid grid-cols-2 gap-x-[1.38rem] gap-y-[2.06rem] mt-[1.62rem] w-[39.005rem]'>
+    <div className='grid grid-cols-1 sm:grid-cols-2 gap-x-[1.38rem] gap-y-[2.06rem] mt-[1.62rem] xl:w-[39.005rem]'>
         {
             listItems?.map(({icon, title, subTitle}, index) => (
                 <li key={index} className='space-y-[0.69rem] text-white flex flex-col'>

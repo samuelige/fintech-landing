@@ -3,7 +3,7 @@ import React from 'react'
 
 const NavActions = () => {
   return (
-    <div className='flex flex-row items-center space-x-[2.88rem]'>
+    <div className='hidden md:flex flex-row items-center space-x-[2.88rem]'>
         <Button
             component="label"
             variant="text"

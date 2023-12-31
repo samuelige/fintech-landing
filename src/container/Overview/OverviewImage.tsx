@@ -4,7 +4,7 @@ import React from 'react'
 
 const OverviewImage = () => {
   return (
-    <div className='w-[31.53125rem]'>
+    <div className='w-full md:w-[31.53125rem] mx-auto xl:mx-0'>
         <Image
             src={iphone}
             alt='iphone-image'

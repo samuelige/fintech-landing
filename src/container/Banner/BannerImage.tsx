@@ -4,7 +4,7 @@ import React from 'react'
 
 const BannerImage = () => {
   return (
-    <div className='w-[65.125rem] mt-7 mx-auto'>
+    <div className='w-full xl:w-[65.125rem] mt-7 mx-auto'>
         <Image
             src={banner}
             width={1042}

@@ -30,7 +30,7 @@ const ProductList:FC = () => {
     <ul>
         {
            ListItem?.map(({icon, title, subTitle}, index) => (
-            <li key={index} className='flex flex-row items-center justify-between pt-[1.875rem] pr-[0.75rem] pb-[1.875rem] pl-4 rounded-xl hover:bg-gray-600 space-x-[3.31rem]'>
+            <li key={index} className='flex w-full flex-row items-center md:w-[40.875rem] xl-w-full justify-between pt-[1.875rem] pr-[0.75rem] pb-[1.875rem] pl-4 rounded-xl hover:bg-gray-600 space-x-[3.31rem]'>
                 
                 <div className='flex flex-row space-x-[0.62rem] items-center'>
                     <div className='w-[2.6875rem] h-[2.75rem]'>
@@ -43,9 +43,9 @@ const ProductList:FC = () => {
                         />
                     </div>
                     
-                    <div className='flex flex-col'>
+                    <div className='flex-1 flex flex-col'>
                         <p className='text-lg text-black-100 font-medium'>{title}</p>
-                        <p className='mt-[0.38rem] empty:hidden w-[27.8125rem]'>{subTitle}</p>
+                        <p className='mt-[0.38rem] empty:hidden  xl:w-[27.8125rem]'>{subTitle}</p>
                     </div>
                 </div>
                 <Image

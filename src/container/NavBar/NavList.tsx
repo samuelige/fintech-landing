@@ -17,7 +17,7 @@ const NavList = () => {
         },
     ] 
   return (
-    <ul className='flex flex-row w-[19.6875rem] items-center justify-between'>
+    <ul className='hidden md:flex md:flex-row w-[19.6875rem] items-center justify-between '>
         {
            navListItem?.map(({ name, pathName}, index) => (
             <Link className='font-medium' key={index} href={pathName}>{name}</Link>

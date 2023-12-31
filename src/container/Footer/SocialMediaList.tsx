@@ -6,7 +6,7 @@ const SocialMediaList = () => {
     const socialMediaIcons = [facebook, twitter, instagram];
 
   return (
-    <ul className='flex flex-row items-center justify-between w-[8.25rem] h-6 m-auto'>
+    <ul className='flex flex-row items-center justify-between w-[8.25rem] h-6 xl:m-auto'>
         {
             socialMediaIcons.map((item, index) => (
                 <li key={index} className='hover:cursor-pointer'>

@@ -11,7 +11,7 @@ interface FooterListProps {
 
 const FooterList:FC<FooterListProps> = ({data}) => {
   return (
-    <div>
+    <div className='mt-8 xl:mt-0'>
         <h3 className='text-black-200 font-medium'>{data?.title}</h3>
         <ul className='mt-4 flex flex-col space-y-[1.38rem]'>
             {

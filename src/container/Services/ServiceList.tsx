@@ -8,7 +8,7 @@ const ServiceList = () => {
         `Business investment opportunities`
     ]
   return (
-    <ul className='grid grid-cols-4 gap-[1.19rem] mt-[3.06rem]'>
+    <ul className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[1.19rem] mt-[3.06rem]'>
         {
             ListItem?.map((item, index) => (
                 <li className='text-black-100 rounded-lg h-[18.0625rem] flex flex-col justify-between pt-[1.5rem] pr-[1.0625rem] pb-[1.625rem] pl-[1.0625rem] bg-gray-25' key={index}>

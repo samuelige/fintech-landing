@@ -8,7 +8,7 @@ const PartnersList = () => {
     <ul className='mt-[3.19rem] grid grid-cols-6 gap-x-[1.12rem]'>
         {
             listItems.map((item, index) => (
-                <li key={index} className='h-[8.4375rem]'>
+                <li key={index} className='h-auto md:h-[8.4375rem]'>
                     <Image
                         src={item}
                         alt="partner-image"
