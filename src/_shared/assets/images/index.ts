@@ -1,7 +1,7 @@
 export { default as banner} from "./banner.svg?url"
 export { default as wave} from "./wave.svg?url"
 export { default as cards} from "./cards.svg?url"
-export { default as iphone} from "./iphone.svg?url"
+export { default as iPhone} from "./iPhone.svg?url"
 export { default as stripe} from "./stripe.svg?url"
 export { default as ovo} from "./ovo.svg?url"
 export { default as visa} from "./visa.svg?url"
